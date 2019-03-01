@@ -1,0 +1,775 @@
+/*   Jarran's personal website home page
+     File name: styles.css
+	 Author: Jarran Tan 1728051
+	 Class: DIT/FT/1A/01
+	 Date created: 21/7/17
+*/
+
+/*reset codes*/
+head, body, ul, ol, nav, div, img, span, figure, article, aside, figcaption,h1,h2,h3,h4,h5{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+html{
+	min-width:400px;
+	
+}
+
+/*font face*/
+@font-face {
+    font-family: "Pixellari";
+    src: url(Fonts/Pixellari.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "VGA";
+    src: url(Fonts/VGA.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gameboy";
+    src: url(Fonts/Gameboy.ttf) format("truetype");
+}
+
+
+
+/*nav bar*/
+.mobilenav{
+	display:inline-block;
+	position:relative;
+	z-index:3;
+}
+.mobilelogo{
+	float:left;
+}
+#drop{
+	position:relative;
+    top:0.47em;
+	}
+
+.navbar{
+	background-color:#1c8384;
+	text-align:center;
+}
+
+.pagenavigation{
+	display:none;
+}
+
+.navbar li{
+  display:inline-block;
+  padding:0 1.5%;
+
+  
+}
+
+.dropdown-content{
+    display: none;
+    position:relative;
+    background-color: #237d66;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+	border:7px dotted #1c8384;
+}
+
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-size:15px;
+}
+.dropdown-content a{
+	color:#aeecef;
+	
+}
+li img.logo{
+	width:300px;
+	height:auto;
+	margin:1em 0;
+}
+#cover{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+	display:none;
+	z-index:2;
+}
+
+
+#cover ul{
+	display:block;
+	position:relative;
+	top:10%;
+}
+#cover input{
+	padding: 0.9em 10%;
+	border-radius:10em;
+	border: 1px solid #1c8384;
+	background-color:#00ffaa;
+	box-shadow:3px 6px 2px #5a5355;
+	margin: 0 0.4em;
+	position:relative;
+	top:50%;
+	margin-top:10%;
+	font-family: Gameboy,cursive;
+}
+
+/*contact nav*/
+.contact{
+	position:fixed;
+	bottom:0;
+	right:0;
+	opacity:0.4;
+	display:none;
+	z-index:100;
+}
+
+.contact .up{
+	position:relative;
+    bottom:0;
+	right:0;
+
+}
+.contact .fb{
+	position:fixed;
+	bottom:70px;
+	
+}
+.contact .sm{
+	position:fixed;
+	bottom:140px;
+	
+}
+.contact .cc{
+	position:fixed;
+	bottom:210px;
+	
+}
+.contact .pause{
+	position:fixed;
+	bottom:280px;
+}
+.contact .play{
+	position:fixed;
+	bottom:280px;
+    display:none;	
+}
+
+/*banner*/
+.banner{
+	width: 100%;
+	display: none;
+    
+}
+
+/*video game*/
+div.videogame{
+	display:none;
+	
+}
+
+div.videogame aside{
+	padding-bottom:2%;
+}
+
+div.videogame div{
+	background-color:black;
+	height:200px;
+	margin:0 auto;
+	width:100%;
+}
+section{
+	background-color:black;
+	
+}
+#chatbox{
+		font-family: Gameboy,cursive;
+		margin:0;
+}
+
+#chatborder{
+	border: 2px dashed #1c8384;
+	height:120px;
+	border-radius:50px;
+	width:80%;
+	margin: 0 auto;
+	color:white;
+	padding:2.8em;
+}
+.videogame img{
+	padding:2% 0;
+   display:none;
+}
+.videogame input{
+	padding: 0.9em 1.2em;
+	border-radius:10em;
+	border: 1px solid #1c8384;
+	background-color:#00ffaa;
+	float:right;
+	box-shadow:3px 6px 2px #5a5355;
+	margin: 0 0.4em;
+	display:none;
+	font-family: Gameboy,cursive;
+}
+#start{
+	display:block;
+}
+.videogame input:active,#cover input:active{
+	position:relative;
+	top:3px;
+	box-shadow:3px 3px 2px #5a5355;
+}
+.videogame input:hover,#cover input:hover{
+	background-color:#1c8384;
+}
+
+/*home article*/
+article{
+	background:url("images/Pixelback.png");
+	background-attachment: fixed;
+	background-size:contain;
+	font-size:0.8em;
+}
+
+article div{
+	background-color:#AEECEF;
+	margin: 0 auto;
+	padding: 3% 1em;
+	
+}
+
+h1,h2,h3,li{
+	font-family: VGA,'Times New Roman',Times,serif;
+	
+}
+li:hover,.more p:hover,a:hover{
+	text-shadow:1px 2px 1px #66ffb2;
+	
+}
+.pagenavigation .dropdown-content li{
+   	text-shadow:none;
+	
+}
+div p{
+	font-family: Pixellari, Arial,sans-serif;
+	
+	
+}
+
+div.thisweb{
+	text-align:center;
+	background:url(images/jumpman.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+}
+div.thisweb aside{
+	padding-top:2.8em;
+}
+span{
+	font-family: Gameboy, cursive;
+	
+}
+span.coin{
+	color:yellow;
+}
+span.hearts{
+	color:pink;
+	
+}
+div.aboutmee{
+	background:url(images/plains.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:270px;
+	overflow:hidden;
+}
+div.aboutmee aside{
+    float:left;	
+	width:40%;
+	margin: 0 5%;
+}
+div.aboutmee figure{
+	float:right;
+	width:40%;
+    
+}
+div.aboutmee aside,div.aboutmee figure{
+	padding-top:3em;
+	
+}
+.more p{
+	padding-left:0;
+	
+}
+div.aboutmee p, div.aboutmee figcaption, div.aboutmee h1, div.others h1, div.others figcaption, div.others li{
+	color:white;
+	
+}
+div.others{
+	background:url(images/pac.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:200px;
+	overflow:auto;
+}
+.others ul ,.layout ul{
+	list-style-image:url('images/Select.png')
+	
+}
+div.others aside{
+	float:right;
+	width:25%;
+	padding: 2% 5% 0 5%;
+}
+div.others figure{
+	float:left;
+	width:25%;	
+	padding: 6.5% 0 0 35%;
+}
+div.others img{
+	width:90%;
+	
+}
+figcaption{
+	font-family: Pixellari, Arial,sans-serif;
+	font-size:0.8em;
+	
+}
+
+/*layout article*/
+.layout figure{
+	max-width: 100%;
+	margin: 0.5em;
+}
+.layout figure img{
+	margin: 0 0 0 5%;
+}
+.layout figcaption{
+	text-align:center;
+	color:#237d66;
+	padding-top:2%;
+}
+.layout h1{
+  text-align: center;
+  padding-bottom:4%;  
+  text-decoration: underline;
+  color: #1c8384;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px #1e2b36;
+  clear:both;
+  }
+.layout h2{
+	color: #239899;
+	padding-bottom:3%;  
+	text-shadow: 1px 1px 3px #1e2b36;
+	font-size: 2em;
+	text-decoration: underline;
+}
+.layout h3{	
+    color: #20665F;	
+	padding:2% 0;
+	text-shadow: 1px 1px 3px #1c8384;
+	text-decoration: underline;
+	font-size:1.4em;
+	text-align:center;
+
+}
+.layout h4{	
+    color: #328266;
+	text-shadow: 1px 1px 3px #39BAAE;  
+    font-style:italic;
+	margin: 0.9em 0 0.5em 0;
+	font-size:1.2em;
+}
+.layout p{
+	font-size: 1.1em;
+	line-height: 2em;
+	color:#21705c;
+}
+.layout .aside{
+	display:none;
+}
+
+.layout ul{
+	padding:0.4em;
+}
+li{
+	padding:0.4em;
+	color:#21705c;	
+}
+
+/*portfolio*/
+.portfolio img, .gallery img{
+	margin:0 auto;
+	width:100%;
+	
+}
+.portfolio div, .gallery div{
+	margin:0;
+	padding:0;
+	border:0;
+	background-color:#1c8384;
+}
+.gallery p{
+	font-size:0.8em;
+	text-align:center;
+	color:#aeecef;
+}
+.portfolio,.gallery{
+	border: 3px dotted black;
+	background-color:#1c8384;
+	
+}
+.textcenter{
+	text-align:center;
+	font-family: Gameboy,cursive; 	
+}
+
+.portfoliopage .headerp{
+	text-align: center;
+}
+/*game review*/
+.hoverimg{
+	width:90%;
+}
+.information{
+	display:none;
+}
+nav.textnavigation ul{
+	padding-left:7%;
+	margin:0 auto 3% auto;
+	background-color: #2C5DAD;
+	border-radius: 10px;
+	width:80%;
+}
+nav.textnavigation li{	
+	text-align: left;
+	padding:0.5em 0;
+}
+
+nav.textnavigation a:link{
+	color: #9FD7DA;
+	text-decoration: none;
+}
+
+nav.textnavigation a:visited{
+	color: #28AFB0;
+	
+}
+
+.reviewlayout img{
+	width:90%;
+	
+}
+#intropic{
+	width:100%;
+	padding-bottom:3%;
+	
+}
+/*form styles*/
+.form h1{
+  text-align: center;
+  padding-bottom:4%;  
+  text-decoration: underline;
+  color: #1c8384;
+  font-size: 3em;
+  text-shadow: 1px 1px 3px #1e2b36;
+  clear:both;
+}
+
+form{
+	padding: 10px;
+}
+/*fieldset styles*/
+fieldset{
+	margin-bottom:0.4em;
+	border:dotted #237d66;
+}
+legend{
+	color:#1c8384;
+	font-weight:bold;
+	font-family: VGA,'Times New Roman',Times,serif;
+	font-size:1.2em;
+}
+label{
+	color:#21705c;
+	font-family: Pixellari, Arial,sans-serif;
+}
+/*field styles*/
+.contactinfo label{
+	display:block;
+	margin:0.4em 0;
+}
+.contactinfo input{
+	position:absolute;
+	left:30%;
+}
+#firstnameinput,
+#lastnameinput,
+#emailinput{
+	width:40%;
+	
+}
+#phoneinput{
+	width:16em;
+}
+.contactmethod label{
+margin-right:1em;
+}
+.topic label{
+  display:block;
+  
+}
+#submit{
+	border:none;
+	margin:0 30%;
+	padding:0.2em;
+}
+.submit{
+	padding:0.2em;
+	font-size:1.1em; 
+    margin:0 33%;	
+}
+/*Links*/
+a{
+  text-decoration:none;
+  color:#237d66;
+}
+ul li {
+	text-decoration:underline;
+	
+}
+a:visited{
+    color:#9FD7DA;
+	
+}
+a:hover,#drop:hover,li{
+	cursor:url('images/pix.cur'),pointer;
+}
+a:active,#drop:active{
+	cursor:url('images/pixclick.cur'),pointer;
+}
+.dropdown-content li{
+	cursor:default;
+}
+.layout a:visited{
+	color:#2C5DAD;
+	
+}
+
+/*footer*/
+footer{
+   padding: 0.3em 0;
+   width: 100%;
+   text-align: center;
+   background-color: #2C5DAD;
+   color: #AEECEF;
+}
+footer p{
+	margin: 0.2em;
+	font-size: 0.8em;
+	font-family: Pixellari, Arial,sans-serif;
+}
+footer img{
+	margin: 0em 0.5em;
+	width:20%;
+}
+
+/*responsive*/
+@media screen and (min-width: 480px){
+	.contact{
+	position:fixed;
+	bottom:0;
+	right:0;
+	opacity:0.8;
+}
+
+	article{
+	font-size:1em;
+		
+	}
+	article div{
+		width:80%;
+		
+	}
+	div.videogame{
+		display:block;
+		
+	}
+	div.videogame .screen{
+	height:330px;		
+	width:430px;
+	}
+	.videogame img{
+   max-width:100%;
+}
+	div.aboutmee{
+		height:390px;
+		
+	}
+	div.aboutmee aside, div.aboutmee figure{
+	padding-top:10%;
+	
+}
+
+div.aboutmee img{
+    padding-top:5%;
+	margin:0 10% 0 0;
+}
+div.others aside{
+	padding: 3% 10% 0 2%;
+}
+div.others figure{
+	padding: 5% 0 0 20%;
+}
+.more p{
+	text-align:right;
+	
+}
+.layout figure{
+	float:right;
+	padding-left:4em;
+}
+footer p{	 
+	font-size: 1.3em;
+}
+.reviewlayout img{
+	width:initial;
+	padding-left:5%;
+}
+#intropic{
+	width:90%;
+	padding-bottom:3%;
+	
+}
+.layout figure img {
+    margin:0;
+}
+.reviewlayout figure{
+	padding: 0 1em;
+}
+.portfolio div{
+	margin:0 auto;
+	padding:0;
+	border:0;
+}
+}
+
+@media screen and (min-width: 1024px){
+	div.videogame div{
+	height:550px;
+	font-size:1.4em;
+	}
+	.banner{
+		display:inline-block;
+	}
+	.pagenavigation{
+	display:block;
+    }
+   .dropdown-content{
+    display: none;
+    }
+	article{
+		font-size:1.4em;
+		
+	}
+	.screen{
+        margin:0 auto;
+		float:left;
+		width:50%
+	}
+	.screen img{
+		margin-top:6%;
+		margin-left:2%;
+	}
+	#chatborder{
+		float:right;
+		padding:2.8em 0.8em;
+		margin-top:4em;
+		margin-right:0.8em;
+		width:50%
+	}
+	.videogamee{
+		background-color:black;	
+		height:400px;
+		
+	}
+div.thisweb, div.aboutmee, div.others{
+	height:600px;
+	
+}
+div.aboutmee aside, div.aboutmee figure,div.thisweb aside{
+	padding-top:20%;
+	
+}
+
+div.aboutmee img{
+	width:80%;
+}
+div.aboutmee figcaption{
+	padding-left:2em;
+	
+}
+div.aboutmee figure{
+	position:relative;
+	bottom:2em;
+}
+div.others aside{
+
+	padding: 3% 10% 0 2%;
+}	
+div.others figure{
+
+	padding: 5% 0 0 20%;
+}
+
+.mobilenav{
+	display:none;
+	
+}
+
+.hoverimg{
+	width:initial;
+	padding-left:3%;
+}
+.layout p{
+	line-height:1.5em;
+}
+nav.textnavigation ul{
+    margin:3% auto;
+}
+nav.textnavigation li{
+    padding:0.5em 0;
+}
+footer p{
+	font-size: 1.5em;
+}
+}
+
+@media screen and (min-width: 1440px){
+    div.aboutmee aside, div.aboutmee figure,div.thisweb aside{
+      	padding-top:13%;
+	
+    }
+    .screen img{		
+		margin-top:6%;
+		margin-left:30%;
+	}
+     #chatborder{
+		 margin-right:6%;
+	 }
+
+	div.aboutmee img{
+		width:40%;
+	}
+}
+
+
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Jarran's personal website home page
+     File name: form.html
+	 Author: Jarran Tan 1728051
+	 Class: DIT/FT/1A/01
+	 Date created: 21/7/17
+-->
+
+
+   <head>
+    <title>Jarran's personal website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"> 
+    <link rel="stylesheet" href="styles.css">
+	<link rel="shortcut icon" href="images/jtfavicon.ico">
+    <script src="jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+   <header>
+     <nav class="navbar"> 
+	<nav class = "mobilenav">
+	<a href = "index.html"><img class = "mobilelogo" src ="images/logoanimation.gif" alt="Logo"></a>
+	<img id = "drop" src ="images/dropdown2.png" alt="Hamburger Icon" >
+	</nav>
+	<div id ="cover">
+	<ul>
+	  <li><a href = "index.html"><img src ="images/Spaceship1dot1.png" alt="ss1" class = "ss1"></a></li>
+	  <li><a href="aboutme.html"><img src ="images/Spaceship3dot1.png" alt="ss2" class = "ss2"></a></li>
+	  <li><a href="portfolio.html"><img src ="images/Spaceship4dot1.png" alt="ss3" class = "ss3"></a></li>
+	  <li><a href="gamereview.html"><img src ="images/Spaceship2dot1.png" alt="ss4" class = "ss4"></a></li>	  
+	</ul>
+	<form action="form.html">
+	<input type="submit" value="Leave your contacts~">
+	</form>
+	</div>
+	    <ul class="pagenavigation">
+	      <li><a href = "index.html"><img src ="images/Spaceship1dot1.png" alt="ss1" class = "ss"></a></li>
+	      <li><a href="aboutme.html"><img src ="images/Spaceship3dot1.png" alt="ss2" class = "ss"></a></li>
+	      <li><a href = "index.html"><img class = "logo" src ="images/logoanimation.gif" alt="logo"  ></a></li>
+	      <li><a href="portfolio.html"><img src ="images/Spaceship4dot1.png" alt="ss3" class = "ss"></a></li>
+	      <li> <a href="gamereview.html" class="dropbtn"><img src ="images/Spaceship2dot1.png" alt="ss4" class = "ss"></a></li> 	    	  	  
+	    </ul>  
+		<ul class="dropdown-content">
+		<li><a href="FmN.html">Forget me not</a></li>
+           <li><a href="Recettear.html">Recettear</a></li>
+           <li><a href="#">Stardew Valley</a></li>
+           <li><a href="#">Atelier Sophie</a></li>				
+        </ul>	
+	</nav>
+    </header>
+    <article>
+       <nav class="contact">
+	     <a><img src="images/upcircle.png" alt="top" class="up"></a>
+         <a href="https://www.facebook.com/jarran.tan" target="_blank"><img src="images/fbcircle.png" alt="FB" class="fb"></a>
+         <a href="https://steamcommunity.com/id/JTYZ" target="_blank"><img src="images/steamcircle.png" alt="Steam" class="sm"></a>
+         <a><img src="images/opencc.png" alt="Contact me" class="cc"></a>
+		 <a><img src="images/pause.png" alt="pause" class="pause"></a>
+        <a><img src="images/play.png" alt="play" class="play"></a>
+       </nav>
+	    <div class="form">
+          <h1>Contact form</h1>
+		  <h1>Disclaimer! This does not work. The backend is not connected.</h1>
+	      <form action="results.html">
+            <fieldset class="contactinfo">
+	        <legend>Contact Information</legend>
+	        <label for="firstnameinput">
+	          First name
+	       <input type="text" name="firstname" id="firstnameinput" placeholder="First name">
+	        </label>
+	       <label for="lastnameinput">
+	          Last name
+	        <input type="text" name="lastname" id="lastnameinput" placeholder="Last name">
+	        </label>
+	        <label for="emailinput">
+	           Email
+	         <input type="email" name="email" id="emailinput" placeholder="Address@example.com">
+	         </label>
+		     <label for="phoneinput">
+		       Phone
+		     <input type="tel" name="phone number" id="phoneinput">
+		     </label>
+		     </fieldset>
+		     <fieldset class="contactmethod">
+		    <legend>Preferred contact method</legend>
+		    <label for="email">
+		    <input type="radio" name="preferred contact method" value="email" id="email">
+		      Email
+		    </label>
+		    <label for="phone">
+		    <input type="radio" name="preferred contact method" value="Phone" id="phone">
+		      Phone
+		    </label>
+		    <label for="either">
+		    <input type="radio" name="preferred contact method" value="Either" id="either">
+		      Either
+		   </label>				 
+		    </fieldset>
+		    <fieldset class="additionalinfo">
+		    <legend>Additional Comments</legend>
+		    <label for="feedback">
+		    Comments that you want to leave for me<br>
+		    <textarea name="feedback" id="feedback" rows="7" cols="40"></textarea>	
+		    </label>
+		    </fieldset>
+		    <fieldset id="submit">
+	        <input type="submit" class="submit" value="Submit">
+	        </fieldset>
+	         </form>
+      </div>	
+    </article>
+    <footer>
+	    <p>Website of Jarran Tan Yan Zhi</p>
+		<p>Other than the pictures of games, everything was taken/drawn by me.</p>
+	    <p>Email:   JTYZ.17@ichat.sp.edu.sg</p>
+		<p>Leave your contacts <a href="form.html">here</a></p>
+    </footer>
+		<script src="scripts.js"></script>
+  </body>
+  
+  
+  </html>
