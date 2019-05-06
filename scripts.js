@@ -112,9 +112,27 @@ $(".play").click(function(){
         
 })	
 $('.dvde').click(function(){
- $('.desc').html('<h3>DVDe module ca1</h3><p>My starting theme was time, then as I continued my mind map it extended to timeline and then future and past. </p> <p>As I am not good at interpreting images I decided that my work will have more words to express what I am trying to convey. I searched for puns and words relating to time then thought of how pen ink could not be erased by an eraser. So I linked both idea together and thus made this artwork.</p><p> From the top left of my artwork you could see the past of a person who has done something against the law. We all know well enough that the past cannot be changed. </p><p> This is expressed by the top right of my artwork which shows the person attempting to erase the past and it only released eraser dust with nothing erased at all. The top right hand is darker compared to the left one and the stickmen shows that it was a dark past one that anyone would want to change just go escape from the consequences.</p><p>The bottom half shows that you can write your future. And if you read in a straight line it would be you can write future choices.</p><p>Under the title future choices you could see many different choices the person could take but all of it is in the pencil font which show that it can still be changed, you have not done it yet, thus they are possible choices and it is up to you to choose the correct path.</p><p>And as from the bottom left you could see after you written it in pen it meant that you have chosen what path you want to take. The stickman at the bottom shows that you should think carefully about your future and choose the correct path. </p>');	
+ $('.desc').html('<h3>Digital Visual Design module ca1</h3><p>Made in photoshop</p><p>My starting theme was time, then as I continued my mind map it extended to timeline and then future and past. </p> <p>As I am not good at interpreting images I decided that my work will have more words to express what I am trying to convey. I searched for puns and words relating to time then thought of how pen ink could not be erased by an eraser. So I linked both idea together and thus made this artwork.</p><p> From the top left of my artwork you could see the past of a person who has done something against the law. We all know well enough that the past cannot be changed. </p><p> This is expressed by the top right of my artwork which shows the person attempting to erase the past and it only released eraser dust with nothing erased at all. The top right hand is darker compared to the left one and the stickmen shows that it was a dark past one that anyone would want to change just go escape from the consequences.</p><p>The bottom half shows that you can write your future. And if you read in a straight line it would be you can write future choices.</p><p>Under the title future choices you could see many different choices the person could take but all of it is in the pencil font which show that it can still be changed, you have not done it yet, thus they are possible choices and it is up to you to choose the correct path.</p><p>And as from the bottom left you could see after you written it in pen it meant that you have chosen what path you want to take. The stickman at the bottom shows that you should think carefully about your future and choose the correct path. </p>');	
 })
 $('.banner').click(function(){
- $('.desc').html('<h3>Website Banner</h3><p>Aye, this is my website banner. When i was asked to think of a theme for my website, i immidiately thought why not make it an arcade retro style? Especially since i was really into pixel art at that time(IM STILL BAD AT PIXELART)</p><p>Well so i was thinking what i could do for my banner, i drew my name using the pixel art too aesprite and startedd googling for inspiration.</p><p>then i saw a gif of tetris falling and thought that that would look good for my banner.</p><p>I ended up making this but it took quite a while</p>');	
+ $('.desc').html('<h3>Web Client Development</h3><p></p>');	
 })
-	  
+ $('.dbms').click(function(){$('.desc').html(
+ '<h3>Database Management Studio(mySQL)</h3><p>You can download by clicking<a href = "https://drive.google.com/open?id=1XXxvywNaKPWa9GzFSFMPdue4ts-AVNqC" target = "_blank"> here</a></p><p>For this project we are doing on OnePA, at that point of time the website is down and we could not access much so we had to predict what is needed and what is not, then sort them into data base and link them using keys. Afterwards we need to manually add in data on our own into the table.</p><p>The link provides the docs for that database.</p>'
+ )})
+  $('.java').click(function(){$('.desc').html(
+ '<h3>Programming Fundamentals(Java)</h3><a href = "https://drive.google.com/open?id=1q4uUPqIsVaBftSFv9IJFdzqxE63rmlHC" target = "_blank">link</a>'
+ )})
+   $('.ingd').click(function(){$('.desc').html(
+ '<h3>Introduction to Game Development</h3>'
+ )})
+   $('.python').click(function(){$('.desc').html(
+ '<h3>Artificial Intelligence and Machine Learning</h3><a href = "https://bot.dialogflow.com/PoisonousOrNot" target = "_blank">chatbot link</a><a href = " https://drive.google.com/open?id=1lx8sKkexZVZdsDvpU4mz1OWBNFrxTc4l" target = "_blank">download link</a>'
+ )})
+    $('.cplusplus').click(function(){$('.desc').html(
+ '<h3>Interactive Computer Graphics (C++ Opengl)</h3><a href ="https://drive.google.com/open?id=1uUU1Y81_pRSj4cL8XUZQbSsaosShCldo" target = "_blank">link</a>'
+ )})
+     $('.appd').click(function(){$('.desc').html(
+ '<h3>Application Development(C# and WPF)</h3><a href ="https://drive.google.com/open?id=1MthOz1JWj5PIO5xsZxtUnkrw1SCgSL7l" target = "_blank">link</a></h3>'
+ )})
+
