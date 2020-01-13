@@ -753,6 +753,47 @@ footer p{
 }
 }
 
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th,
+td {
+  padding: 10px;
+  border: solid 1px;
+  border-color:#1e2b36;
+  text-align: left;
+  background-color:#83BBBB;
+  font-family: Pixellari, Arial,sans-serif;
+}
+
+td.title,th.title{
+	font-size:1.5em;
+	background-color:#1c8384;
+    font-family: VGA,'Times New Roman',Times,serif;
+}
+
+th.title{
+	
+	background-color:#176C6D;
+}
+
+td.subtitle{
+	
+	  background-color:#59A4A5;
+}
+	
+td.title:hover{
+	background-color:#45999A;
+}	
+
+td.click:hover{
+color:#246A73;
+
+}	
+	
 @media screen and (min-width: 1440px){
     div.aboutmee aside, div.aboutmee figure,div.thisweb aside{
       	padding-top:13%;

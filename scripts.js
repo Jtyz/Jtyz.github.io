@@ -105,6 +105,24 @@ $(".pause").click(function(){
 	$(".bgm").get(0).pause();
         
 })	
+	$('.hide1').slideToggle();	
+		$('.hide2').slideToggle();	
+		$('.hide3').slideToggle();	
+		$('.hide4').slideToggle();	
+$(".title1").click(function(){
+	$('.hide1').slideToggle();	
+});
+$(".title2").click(function(){
+	$('.hide2').slideToggle();	
+});
+$(".title3").click(function(){
+	$('.hide3').slideToggle();	
+});
+$(".title4").click(function(){
+	$('.hide4').slideToggle();	
+});
+
+
 $(".play").click(function(){
 	$(".play").css('display','none');
 	$(".pause").css('display','block');
