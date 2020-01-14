@@ -95,20 +95,12 @@ $(".dropbtn,.dropdown-content").mouseleave(function(){
 $(".dropdown-content").css('display','none')}
 );
 
-$(document).ready(function() {	
-    $(".bgm").get(0).play();
-});
-
 $(".pause").click(function(){
 	$(".pause").css('display','none');
 	$(".play").css('display','block');
 	$(".bgm").get(0).pause();
         
 })	
-	$('.hide1').slideToggle();	
-		$('.hide2').slideToggle();	
-		$('.hide3').slideToggle();	
-		$('.hide4').slideToggle();	
 $(".title1").click(function(){
 	$('.hide1').slideToggle();	
 });
@@ -121,7 +113,66 @@ $(".title3").click(function(){
 $(".title4").click(function(){
 	$('.hide4').slideToggle();	
 });
+$(".title5").click(function(){
+	$('.hide5').slideToggle();	
+});
 
+$(".cmunity").click(function(){
+	$('.munity').show();
+});
+
+$(".ctots").click(function(){
+	$('.tots').show();
+});
+
+$(".cfarmgame").click(function(){
+	$('.farmgame').show();
+});
+$(".ctrains").click(function(){
+	$('.trains').show();
+});
+$(".crollstone").click(function(){
+	$('.rollstone').show();
+});
+$(".crsaf").click(function(){
+	$('.rsaf').show();
+});
+
+$(".cabook").click(function(){
+	$('.abook').show();
+});
+$(".chtc").click(function(){
+	$('.htc').show();
+});
+$(".cshp").click(function(){
+	$('.shp').show();
+});
+$(".cdlife").click(function(){
+	$('.dlife').show();
+});
+$(".cwcd").click(function(){
+	$('.wcd').show();
+});
+
+$(".cdvde").click(function(){
+	$('.dvde').show();
+});
+
+$(".cdbms").click(function(){
+	$('.dbms').show();
+});
+
+$(".cappd").click(function(){
+	$('.appd').show();
+});
+
+$(".cjava").click(function(){
+	$('.java').show();
+});
+
+$(".caiml").click(function(){
+	$('.aiml').show();
+});
 
 $(".play").click(function(){
 	$(".play").css('display','none');

@@ -240,8 +240,7 @@ article{
 article div{
 	background-color:#AEECEF;
 	margin: 0 auto;
-	padding: 3% 1em;
-	
+	padding: 3% 1em;	
 }
 
 h1,h2,h3,li{
@@ -435,6 +434,111 @@ li{
 .portfoliopage .headerp{
 	text-align: center;
 }
+.tablewrap{
+    overflow:auto;
+}
+table { 
+	width: 100%; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+th,
+td {
+  padding: 10px;
+  border: solid 1px;
+  border-color:#1e2b36;
+  text-align: left;
+  background-color:#83BBBB;
+  font-family: Pixellari, Arial,sans-serif;
+}
+
+th{
+	
+}
+
+td.title,th.title{
+	font-size:1.5em;
+	background-color:#1c8384;
+    font-family: VGA,'Times New Roman',Times,serif;
+}
+
+th.title{
+	
+	background-color:#176C6D;
+}
+
+td.subtitle{
+	
+	  background-color:#59A4A5;
+}
+	
+td.title:hover{
+	background-color:#45999A;
+}	
+
+td.click:hover{
+color:#246A73;
+
+}	
+.hide1,.hide2,.hide3,.hide4,.hide5{
+	    display:none;
+	
+}
+.popup{
+    background:rgba(0,0,0,.4);
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+	overflow: auto;
+    z-index:10000;
+}	
+	
+.popup input{
+	padding: 0.9em 1.2em;
+	border-radius:10em;
+	border: 1px solid #59A4A5;
+	background-color:#83BBBB;
+	float:right;
+	box-shadow:3px 6px 2px #5a5355;
+	margin: 0 0.4em;
+	font-family: Gameboy,cursive;
+}	
+
+section{
+display: flex;	
+	width:100%;
+		background-color:#AEECEF;
+}
+
+section img{
+	display:block;
+	width:50%;
+}
+
+section img.right{
+	width: 30%;
+	height:25%;
+	
+}
+
+.popup h1{
+	clear: none;	
+}
+
+.popup input:active{
+	position:relative;
+	top:3px;
+	box-shadow:3px 3px 2px #5a5355;
+}
+
+.popup input:hover{
+	background-color:#59A4A5;
+}	
+
 /*game review*/
 .hoverimg{
 	width:90%;
@@ -753,46 +857,6 @@ footer p{
 }
 }
 
-table { 
-	width: 100%; 
-	border-collapse: collapse; 
-	margin:50px auto;
-	}
-
-th,
-td {
-  padding: 10px;
-  border: solid 1px;
-  border-color:#1e2b36;
-  text-align: left;
-  background-color:#83BBBB;
-  font-family: Pixellari, Arial,sans-serif;
-}
-
-td.title,th.title{
-	font-size:1.5em;
-	background-color:#1c8384;
-    font-family: VGA,'Times New Roman',Times,serif;
-}
-
-th.title{
-	
-	background-color:#176C6D;
-}
-
-td.subtitle{
-	
-	  background-color:#59A4A5;
-}
-	
-td.title:hover{
-	background-color:#45999A;
-}	
-
-td.click:hover{
-color:#246A73;
-
-}	
 	
 @media screen and (min-width: 1440px){
     div.aboutmee aside, div.aboutmee figure,div.thisweb aside{
