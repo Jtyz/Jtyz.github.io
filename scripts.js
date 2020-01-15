@@ -134,6 +134,12 @@ $(".ctrains").click(function(){
 $(".crollstone").click(function(){
 	$('.rollstone').show();
 });
+$(".csos").click(function(){
+	$('.sos').show();
+});
+$(".cte").click(function(){
+	$('.te').show();
+});
 $(".crsaf").click(function(){
 	$('.rsaf').show();
 });
