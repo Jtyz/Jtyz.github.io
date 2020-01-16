@@ -682,10 +682,10 @@ a:visited{
     color:#9FD7DA;
 	
 }
-a:hover,#drop:hover,li{
+a:hover,#drop:hover,li,img.centered:hover{
 	cursor:url('images/pix.cur'),pointer;
 }
-a:active,#drop:active{
+a:active,#drop:active,img.centered:active{
 	cursor:url('images/pixclick.cur'),pointer;
 }
 .dropdown-content li{
@@ -714,6 +714,14 @@ footer img{
 	width:20%;
 }
 
+.centered{
+	text-align: center;
+	background-color: #AEECEF;
+}
+
+img.centered{
+	margin: 0 3%;
+}
 /*responsive*/
 @media screen and (min-width: 480px){
 	.contact{
