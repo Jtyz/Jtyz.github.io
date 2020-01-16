@@ -514,9 +514,8 @@ color:#246A73;
 	font-family: Gameboy,cursive;
 }	
 
-section{
-	width:100%;
-		background-color:#AEECEF;
+.popup section{
+	background-color:#AEECEF;
 }
 
 .popupcontainer{
@@ -525,14 +524,6 @@ section{
 .forward, .backward{
 	    display: flex;
         flex-wrap: wrap;	
-	}
-	
-    .forward > * {
-     width: 46%;
-    }
-	
-	.backward > *{	
-	 width:46%;
 	}
 
 section.left{
@@ -543,12 +534,19 @@ section.right{
 	margin: 1em 0 1em 1%;
 }	
 
+.forward {
+ width: 100%;
+ flex-direction: column;
+}
+	
+	.backward{	
+	width: 100%;
+	flex-direction: column-reverse;
+	}
+
 .popup section img{
 	width: 100%;
 	height: auto;
-	position:relative;
-	top: 50%;
-	transform:translate(0,-50%);
 }
 
 .popup section p {
@@ -886,6 +884,37 @@ nav.textnavigation li{
 footer p{
 	font-size: 1.5em;
 }
+
+.forward, .backward{
+	    display: flex;
+        flex-wrap: wrap;	
+	}
+	
+	.forward {
+     width: 100%;
+	 flex-direction:row;
+    }
+	
+	.backward{	
+	width: 100%;
+	flex-direction:row;
+	}
+	
+    .forward > * {
+     width: 46%;
+    }
+	
+	.backward > *{	
+	 width:46%;
+	}
+	
+	.popup section img{
+	width: 100%;
+	height: auto;
+	position:relative;
+	top: 50%;
+	transform:translate(0,-50%);
+	}
 }
 
 	
