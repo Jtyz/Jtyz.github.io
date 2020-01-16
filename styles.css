@@ -6,7 +6,7 @@
 */
 
 /*reset codes*/
-head, body, ul, ol, nav, div, img, span, figure, article, aside, figcaption,h1,h2,h3,h4,h5{
+head, body, ul, ol, nav, div, img, span, figure, article, aside, figcaption,section,h1,h2,h3,h4,h5{
 	margin:0;
 	padding:0;
 	border:0;
@@ -518,7 +518,8 @@ color:#246A73;
 	background-color:#AEECEF;
 }
 
-.popupcontainer{
+div.popupcontainer{
+	margin:0;
 }
 
 .forward, .backward{
@@ -527,11 +528,11 @@ color:#246A73;
 	}
 
 section.left{
-	margin: 1em 1% 1em 0;
+	margin: 1em 1% 1em 2.5%;
 }
 	
 section.right{
-	margin: 1em 0 1em 1%;
+	margin: 1em 0 1em 2.5%;
 }	
 
 .forward {
@@ -717,6 +718,11 @@ footer img{
 .centered{
 	text-align: center;
 	background-color: #AEECEF;
+}
+
+input.centered{
+	margin: 3% 0 0 0;
+	float:none;
 }
 
 img.centered{
@@ -919,6 +925,11 @@ footer p{
 	.popup section img{
 	width: 100%;
 	height: auto;
+	}
+	
+	.popup section iframe{
+	width: 100%;
+	height:360px;
 	}
 }
 
